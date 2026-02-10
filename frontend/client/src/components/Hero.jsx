@@ -1,28 +1,30 @@
-import React from 'react';
+// Add import
+import heroBg from '../assets/hero-bg.jpg';
 
 const Hero = () => {
     return (
-        <section className="relative bg-teal-900 text-white min-h-[600px] flex items-center justify-center overflow-hidden pt-20">
-            {/* Fallback darker background with standard tailwind colors */}
-            <div className="absolute inset-0 bg-gradient-to-br from-teal-950 via-teal-800 to-blue-950 opacity-90"></div>
+        <section className="relative text-white min-h-[600px] flex items-center justify-center overflow-hidden pt-20">
+            {/* Background Image with Overlay */}
+            <div className="absolute inset-0">
+                <img src={heroBg} alt="College Campus" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-r from-teal-900/90 to-blue-900/80 mix-blend-multiply"></div>
+            </div>
 
             {/* Abstract Background Patterns */}
             <div className="absolute inset-0 overflow-hidden">
-                <div className="absolute -top-24 -right-24 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
-                <div className="absolute bottom-0 left-0 w-full h-full bg-black/10 opacity-20"></div>
+                <div className="absolute -top-24 -right-24 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
                 <div className="absolute top-1/4 left-10 w-24 h-24 bg-yellow-400/20 rounded-full blur-xl animate-pulse"></div>
-                <div className="absolute bottom-1/4 right-10 w-32 h-32 bg-blue-500/30 rounded-full blur-xl animate-bounce duration-[3000ms]"></div>
             </div>
 
             {/* Content */}
             <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
-                <div className="inline-block mb-4 px-4 py-1 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-yellow-400 font-bold text-sm tracking-wide">
+                <div className="inline-block mb-4 px-4 py-1 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-yellow-400 font-bold text-sm tracking-wide shadow-sm">
                     ADMISSIONS OPEN 2026-27
                 </div>
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight text-white drop-shadow-lg">
                     Amal Jyothi College of Engineering
                 </h1>
-                <p className="text-xl md:text-2xl mb-10 text-gray-100 max-w-3xl mx-auto font-light leading-relaxed">
+                <p className="text-xl md:text-2xl mb-10 text-gray-100 max-w-3xl mx-auto font-light leading-relaxed drop-shadow-md">
                     Startups Valley TBI <span className="mx-2 text-yellow-400">•</span> NAAC 'A' Grade <span className="mx-2 text-yellow-400">•</span> NBA Accredited
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-5">
