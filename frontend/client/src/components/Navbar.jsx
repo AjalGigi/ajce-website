@@ -58,7 +58,7 @@ const Navbar = () => {
                             <span className="absolute bottom-1 left-3 right-3 h-0.5 bg-ajce-teal scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-200"></span>
                         </a>
                     ))}
-                    <a href="#apply" className="ml-4 px-5 py-2 bg-ajce-gold text-ajce-dark font-bold rounded-full shadow-md hover:bg-ajce-gold-hover hover:scale-105 transition-all transform text-xs tracking-wider">
+                    <a href="#admissions" className="ml-4 px-5 py-2 bg-ajce-gold text-ajce-dark font-bold rounded-full shadow-md hover:bg-ajce-gold-hover hover:scale-105 transition-all transform text-xs tracking-wider">
                         APPLY NOW
                     </a>
                 </nav>
