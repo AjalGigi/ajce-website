@@ -81,9 +81,8 @@ Follow these instructions to set up the project locally on your machine.
 
 ### Prerequisites
 
-You need a modern web browser and a code editor.
-*   Browser: Chrome, Firefox, Safari, Edge, etc.
-*   Editor: VS Code, Sublime Text, Atom, etc.
+You need **Node.js** installed on your machine.
+*   [Download Node.js](https://nodejs.org/) (LTS version recommended)
 
 ### Installation
 
@@ -95,9 +94,42 @@ You need a modern web browser and a code editor.
     ```sh
     cd amaljyothi-clone
     ```
-3.  Open `index.html` in your browser to view the site.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+#### Backend Setup
+1.  Navigate to the server directory:
+    ```sh
+    cd frontend/server
+    ```
+2.  Install dependencies:
+    ```sh
+    npm install
+    ```
+
+#### Frontend Setup
+1.  Open a new terminal and navigate to the client directory:
+    ```sh
+    cd frontend/client
+    ```
+2.  Install dependencies:
+    ```sh
+    npm install
+    ```
+
+### Running the App
+
+#### 1. Start the Backend Server
+In the server directory (`frontend/server`):
+```sh
+node index.js
+```
+The server will run on `http://localhost:5000`.
+
+#### 2. Start the Frontend Client
+In the client directory (`frontend/client`):
+```sh
+npm run dev
+```
+The application will open automatically at `http://localhost:5173`.
 
 <!-- FEATURES -->
 ## ✨ Features
