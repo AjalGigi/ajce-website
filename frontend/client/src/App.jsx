@@ -1,29 +1,33 @@
+
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Departments from './components/Departments';
-import Admissions from './components/Admissions';
-import Placements from './components/Placements';
-import Faculty from './components/Faculty';
-import Research from './components/Research';
+import Home from './pages/Home';
+import About from './pages/About';
+import Departments from './pages/Departments';
+import CampusLife from './pages/CampusLife';
+import Admissions from './pages/Admissions';
+import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col font-sans">
-      <Navbar />
-      <main className="grow">
-        <Hero />
-        <About />
-        <Departments />
-        <Faculty />
-        <Research />
-        <Placements />
-        <Admissions />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="min-h-screen flex flex-col font-sans bg-gray-50">
+        <Navbar />
+        <main className="grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/departments" element={<Departments />} />
+            <Route path="/campus-life" element={<CampusLife />} />
+            <Route path="/admissions" element={<Admissions />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
