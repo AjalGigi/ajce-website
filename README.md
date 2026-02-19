@@ -1,218 +1,160 @@
 
-<!-- Improved "README.md" -->
 <a id="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<div align="center">
+
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=git&logoColor=white)]()
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=opensourceinitiative&logoColor=white)]()
+[![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)]()
+[![Vite](https://img.shields.io/badge/Vite-7.3.1-646CFF?style=for-the-badge&logo=vite&logoColor=white)]()
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)]()
+
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">Amaljyothi Clone</h3>
+  <img src="frontend/client/src/assets/amal.jpg" alt="Logo" width="120" height="120" style="border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
 
-  <p align="center">
-    A responsive and modern clone of the Amal Jyothi College of Engineering website.
+  <h1 align="center" style="font-size: 3rem; margin-top: 20px;">Amal Jyothi College of Engineering Website Clone</h1>
+
+  <p align="center" style="font-size: 1.2rem; color: #555;">
+    A pixel-perfect, modern, and responsive recreation of the official AJCE portal.
     <br />
-    <a href="https://github.com/yourusername/amaljyothi-clone"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://yourusername.github.io/amaljyothi-clone">View Demo</a>
+    <a href="#demo">View Demo</a>
     ·
-    <a href="https://github.com/yourusername/amaljyothi-clone/issues">Report Bug</a>
+    <a href="#features">Explore Features</a>
     ·
-    <a href="https://github.com/yourusername/amaljyothi-clone/issues">Request Feature</a>
+    <a href="#installation">Getting Started</a>
   </p>
 </div>
 
+---
+
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary><strong>Table of Contents</strong></summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#features">Features</a></li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#key-features">Key Features</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#project-structure">Project Structure</a></li>
     <li><a href="#team">Team</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
+---
+
 ## 🎓 About The Project
 
-This project aims to replicate the core functionality and aesthetic design of the official [Amal Jyothi College of Engineering (AJCE)](https://www.ajce.in/) website. It serves as a comprehensive digital portal for students, faculty, and visitors, providing easy navigation to various departments, facilities, and academic resources.
+This project is a comprehensive digital clone of the **[Amal Jyothi College of Engineering](https://www.ajce.in/)** website. It is designed to replicate the core functionality, aesthetic appeal, and information architecture of the official site while utilizing modern web technologies for enhanced performance and user experience.
 
-The clone focuses on:
-*   **User Experience**: Clean, intuitive navigation and responsive layout.
-*   **Accuracy**: Reflecting the structure and content of the official site.
-*   **Performance**: Optimized for fast loading and smooth interactions.
+The goal is to provide a seamless interface for students, parents, and faculty to access academic resources, admission details, and campus news.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Built With
-
-*   [![HTML5][HTML5-badge]][HTML5-url]
-*   [![CSS3][CSS3-badge]][CSS3-url]
-*   [![JavaScript][JavaScript-badge]][JavaScript-url]
+### 🌟 Recent Enhancements
+-   **🎨 Unified Theme:** A consistent `light blue` visual theme across the Navbar and Footer for improved accessibility and visual harmony.
+-   **🖼️ Custom Branding:** Integrated the official college logo for authentic branding.
+-   **📖 Expanded About Us:** A detailed, narrative-driven content section highlighting the college's history, vision, and mission.
+-   **📱 Smart Navigation:** High-contrast, responsive navigation bar that adapts to scrolling and background colors.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+## ✨ Key Features
+
+*   **⚡ Modern Architecture:** Built with React and Vite for lightning-fast performance.
+*   **📱 Fully Responsive:** Mobile-first design using Tailwind CSS, ensuring a perfect experience on desktops, tablets, and phones.
+*   **🎬 Interactive UI:** Smooth animations powered by `Framer Motion` for an engaging user experience.
+*   **🏢 Department Portals:** Dedicated sections for Computer Science, Civil, Mechanical, and other engineering disciplines.
+*   **📅 Campus Life:** Dynamic showcase of events, student clubs (IEDC, IEEE, GDSC), and arts festivals.
+*   **ℹ️ Comprehensive Info:** Detailed Admission procedures, Hostel facilities, and Placement records.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🛠️ Built With
+
+The project leverages a robust modern tech stack:
+
+*   **Frontend Framework:** [React](https://reactjs.org/)
+*   **Build Tool:** [Vite](https://vitejs.dev/)
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+*   **Animations:** [Framer Motion](https://www.framer.com/motion/)
+*   **Icons:** [Lucide React](https://lucide.dev/)
+*   **Routing:** [React Router](https://reactrouter.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🚀 Getting Started
 
-Follow these instructions to set up the project locally on your machine.
+Follow these steps to set up the project locally.
 
 ### Prerequisites
 
-You need **Node.js** installed on your machine.
-*   [Download Node.js](https://nodejs.org/) (LTS version recommended)
+*   **Node.js** (v18 or higher recommended)
+*   **npm** or **yarn**
 
 ### Installation
 
-1.  Clone the repository
+1.  **Clone the repository**
     ```sh
     git clone https://github.com/yourusername/amaljyothi-clone.git
-    ```
-2.  Navigate to the project directory
-    ```sh
     cd amaljyothi-clone
     ```
 
-#### Backend Setup
-1.  Navigate to the server directory:
-    ```sh
-    cd frontend/server
-    ```
-2.  Install dependencies:
-    ```sh
-    npm install
-    ```
-
-#### Frontend Setup
-1.  Open a new terminal and navigate to the client directory:
+2.  **Install Client Dependencies**
     ```sh
     cd frontend/client
-    ```
-2.  Install dependencies:
-    ```sh
     npm install
     ```
 
-### Running the App
-
-#### 1. Start the Backend Server
-In the server directory (`frontend/server`):
-```sh
-node index.js
-```
-The server will run on `http://localhost:5000`.
-
-#### 2. Start the Frontend Client
-In the client directory (`frontend/client`):
-```sh
-npm run dev
-```
-The application will open automatically at `http://localhost:5173`.
-
-<!-- FEATURES -->
-## ✨ Features
-
--   **Homepage**: A centralized landing page with intuitive navigation to all key sections.
--   **Departments**: Dedicated pages for Computer Science, Mechanical, Civil, and other engineering branches.
--   **Faculty Directory**: Comprehensive list of teaching and non-teaching staff with contact details.
--   **Hostel Facilities**: Information about accommodation for men and women.
--   **TBI (Technology Business Incubator)**: Highlights of the college's startup ecosystem and incubation center.
--   **Responsive Design**: Mobile-first approach ensuring compatibility across all devices.
+3.  **Run the Development Server**
+    ```sh
+    npm run dev
+    ```
+    The app will launch at `http://localhost:5173`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- TEAM -->
+## 📂 Project Structure
+
+```
+amal-jyothi-website/
+├── frontend/
+│   ├── client/              # React Frontend
+│   │   ├── public/         # Static assets
+│   │   ├── src/
+│   │   │   ├── assets/     # Images and logos
+│   │   │   ├── components/ # Reusable UI components (Navbar, Footer, etc.)
+│   │   │   ├── pages/      # Page views (Home, About, Admissions, etc.)
+│   │   │   └── App.jsx     # Main application entry
+│   └── server/             # Backend (Optional/In-progress)
+└── README.md               # Project Documentation
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 👥 Team
 
-This project is developed by a dedicated team of student developers:
+Built with ❤️ by:
 
 | Name | Role |
 | :--- | :--- |
-| **Albin** | Project Lead / Developer |
-| **Ajal** | Developer |
-| **Alfin Alan** | Developer |
-| **Aaron** | Developer |
+| **Albin** | Project Lead / Full Stack |
+| **Ajal** | Frontend Developer |
+| **Alfin Alan** | UI/UX Designer |
+| **Aaron** | Backend Developer |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- CONTRIBUTING -->
-## 🤝 Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-## 🔒 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTACT -->
-## 📞 Contact
-
-**Amal Jyothi College of Engineering**  
-Kanjirappally, Koovappally P. O.  
-Kottayam Dt., Kerala, India.  
-Pin - 686518  
-
-Project Link: [https://github.com/yourusername/amaljyothi-clone](https://github.com/yourusername/amaljyothi-clone)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
 ## 🙏 Acknowledgments
 
-*   [Amal Jyothi College of Engineering](https://www.ajce.in/)
-*   [Startups Valley TBI](https://www.startupsvalley.in/)
-*   [Font Awesome](https://fontawesome.com)
+*   [Amal Jyothi College of Engineering](https://www.ajce.in/) for the vision.
+*   [Startups Valley TBI](https://www.startupsvalley.in/) for the entrepreneurial spirit.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/yourusername/amaljyothi-clone.svg?style=for-the-badge
-[contributors-url]: https://github.com/yourusername/amaljyothi-clone/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/yourusername/amaljyothi-clone.svg?style=for-the-badge
-[forks-url]: https://github.com/yourusername/amaljyothi-clone/network/members
-[stars-shield]: https://img.shields.io/github/stars/yourusername/amaljyothi-clone.svg?style=for-the-badge
-[stars-url]: https://github.com/yourusername/amaljyothi-clone/stargazers
-[issues-shield]: https://img.shields.io/github/issues/yourusername/amaljyothi-clone.svg?style=for-the-badge
-[issues-url]: https://github.com/yourusername/amaljyothi-clone/issues
-[license-shield]: https://img.shields.io/github/license/yourusername/amaljyothi-clone.svg?style=for-the-badge
-[license-url]: https://github.com/yourusername/amaljyothi-clone/blob/master/LICENSE
-[HTML5-badge]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-[HTML5-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
-[CSS3-badge]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-[CSS3-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
-[JavaScript-badge]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+---
+<div align="center">
+  <p>Please ⭐ this repository if you find it helpful!</p>
+</div>
